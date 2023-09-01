@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Adicionar Usuário</title>
 </head>
 <body>
+
+	<p>Dados gravados com sucesso</p>
+	
+	<jsp:include page="userform.html"></jsp:include>
 
 </body>
 </html>

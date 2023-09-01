@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Erro</title>
 </head>
 <body>
 
+	<p><strong>Ah!!! Não... Infelizmente houve um erro.</strong></br> Procure o time de Suporte para
+	solução do Problema</p>
+
+	<jsp:include page="userform.html"></jsp:include>
 </body>
 </html>
