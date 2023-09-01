@@ -1,0 +1,43 @@
+<a href="viewuser.jsp" id="btn2">Visualizar dados</a><br />
+
+<h1>Novo Usuário</h1>
+<form action="adduser.jsp" method="post">
+	<table>
+		<tr>
+			<td>Nome:</td>
+			<td><input type="text" name="name" required/></td>
+		</tr>
+		<tr>
+			<td>Senha:</td>
+			<td>
+				<input type="password" name="password" required />
+			</td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="email" name="email" required/></td>
+		</tr>
+		<tr>
+			<td>Sexo:</td>
+			<td>
+				<input type="radio" name="sex" value="male" / required>Masculino
+				<input type="radio" name="sex" value="female" / required>Feminino
+			</td>
+		</tr>
+		<tr>
+			<td>País:</td>
+			<td>
+				<select name="country" style="width:170px; height: 30px;">
+					<option>Brasil</option>
+					<option>Argentina</option>
+					<option>Chile</option>
+					<option>Paraguai</option>
+					<option>Colombia</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input id="btn3"= type="submit" value="Cadastrar" /></td>
+		</tr>                 
+	</table>
+</form>
